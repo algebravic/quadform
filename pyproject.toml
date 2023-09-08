@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "quadform"
+version = "0.1.0"
+description = ""
+authors = ["Victor S. Miller <victor.miller@sri.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.25.2"
+torch = "^2.0.1"
+geoopt = "^0.5.0"
+landing = {git = "https://github.com/pierreablin/landing"}
+matplotlib = "^3.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
